@@ -3,7 +3,7 @@ import { MdPlace, MdLocalPhone } from "react-icons/md";
 import { AiFillLinkedin } from "react-icons/ai";
 import emailjs from "@emailjs/browser";
 import Head from "next/head";
-import { NavBar } from "@/components/NavBar";
+import Link from "next/link";
 
 export default function Contact() {
   const name = useRef("");
@@ -44,7 +44,7 @@ export default function Contact() {
   return (
     <>
     <Head/>
-    <NavBar />
+      <Link href="/" className="contact__comeBack">Inicio</Link>
     <div className="container__contact">
       <div className="container">
         <div className="section__title">

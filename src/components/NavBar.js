@@ -22,7 +22,7 @@ export const NavBar = () => {
       <ul className="navItems" id={`${!showNav && "hide__item"}`}>
         <li className="nav__li">
           <a
-            href="/#home"
+            href="#home"
             onClick={changeState}
             role="button"
           >
@@ -31,7 +31,7 @@ export const NavBar = () => {
         </li>
         <li className="nav__li">
           <a
-            href="/#about"
+            href="#about"
             onClick={changeState}
             role="button"
           >
@@ -40,7 +40,7 @@ export const NavBar = () => {
         </li>
         <li className="nav__li">
           <a
-            href="/#projects"
+            href="#projects"
             onClick={changeState}
             role="button"
           >
@@ -49,7 +49,7 @@ export const NavBar = () => {
         </li>
         <li className="nav__li">
           <a
-            href="/#contact"
+            href="#contact"
             onClick={changeState}
             role="button"
           >
