@@ -1,0 +1,153 @@
+.container__contact {
+  padding: 10rem 0;
+  background-color: #f9f9f9;
+  color: #2d2e32;
+  height: 100vh;
+}
+
+.section__title {
+  text-align: center;
+}
+
+.section__title p {
+  font-size: 1.8rem;
+}
+
+.section__title h2 {
+  color: #147efb;
+  font-size: 3.6rem;
+  margin-top: 0.5rem;
+  text-transform: uppercase;
+}
+
+.contact__boxItem {
+  padding: 2rem;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,.09);
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.contact__icon {
+  box-shadow: 0 0 10px rgba(0,0,0,.09);
+  padding: 1.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.icon-c{
+  width: 32px;
+}
+.contactSection__wrapper {
+  display: flex;
+  gap: 5rem;
+  margin-top: 7rem;
+  justify-content: space-between;
+  position: relative;
+}
+
+.contactSection__wrapper::after {
+  position: absolute;
+  content: '';
+  width: 2px;
+  height: 50%;
+  background-color:#2d2e32;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, -50%);
+}
+
+.left {
+  width: 100%;
+  max-width: 500px;
+}
+
+.right {
+  max-width: 500px;
+  width: 100%;
+  border-radius: 12px;
+  /* padding-left: 3rem; */
+}
+
+.contact-form {
+  width: 100%;
+}
+
+.form-group {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.contact-label {
+  font-size: 1.8rem;
+}
+
+.input-textarea {
+  width: 100%;
+  font-size: 2rem;
+  padding: 1.2rem;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,.09);
+  outline: none;
+  border: none;
+  border-radius: 1rem;
+  margin-top: 1rem;
+}
+
+textarea {
+  min-height: 250px;
+  resize: vertical;
+}
+
+.contact-button {
+  background-color: #086bff;
+  color: #fff;
+  font-size: 2rem;
+  display: inline-block;
+  outline: none;
+  border: none;
+  padding: 1rem 4rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.contact__info p {
+  font-size: 1.8rem;
+  line-height: 1.3em;
+  margin-left: -1.5rem;
+
+}
+
+
+@media only screen and (max-width: 1050px) {
+  .section__title p {
+    font-size: 1.4rem;
+  }
+
+  .contactSection__wrapper {
+    flex-direction: column;
+  }
+
+  .contactSection__wrapper::after {
+    display: none;
+  }
+
+  .left,
+  .right {
+    max-width: 100%;
+  }
+
+  .right {
+    padding: 4rem 2rem 2rem 2rem;
+  }
+  .contact__info p{
+    font-size: 1.4rem;
+    line-height: 1.3em;
+  
+  }
+}

@@ -1,0 +1,40 @@
+.project__img {
+  height: 20rem;
+  object-fit: contain;
+  cursor: pointer;
+  padding-top: 1rem;
+}
+
+.projectItem__info {
+  padding: 1rem;
+  border-radius: 12px;
+  cursor: pointer;
+  position: relative;
+}
+
+.projectItem__title {
+  font-size: 2.2rem;
+  text-align: center;
+}
+
+.projectItem__desc {
+  font-size: 1.6rem;
+  font-family: Mulish, sans-serif;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+
+@media only screen and (max-width: 1050px) {
+  .project__img {
+    height: 14rem;
+  }
+
+  .projectItem__title {
+    font-size: 1.9rem;
+  }
+
+  .projectItem__desc {
+    font-size: 1.4rem;
+  }
+}

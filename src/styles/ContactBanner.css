@@ -1,0 +1,52 @@
+.contactBanner__wrapper {
+    margin: 5rem 0;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    padding: 5rem 0rem;
+    text-align: center;
+    box-shadow: 0 0 10px #00000017;
+    color: #2d2e32;
+}
+
+.contactBanner__wrapper h3 {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+.contactBanner__wrapper button {
+    border: none;
+    color: #086bff;
+    cursor: pointer;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    padding: 2.3rem;
+}
+
+.contactBanner__wrapper p {
+    max-width: 500px;
+    margin: 0 auto;
+    font-size: 1.8rem;
+    line-height: 1.3em;
+    color: #767676;
+    font-family: Mulish, sans-serif;
+}
+
+.contactbanner__icon {
+    width: 9rem;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .contactBanner__wrapper h3{
+        font-size: 2.8rem;
+    }
+
+    .contactBanner__wrapper p {
+        font-size: 1.4rem;
+    }
+
+    .contactBanner__wrapper button {
+        font-size: 1.8rem;
+    }
+}
