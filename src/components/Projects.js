@@ -46,6 +46,13 @@ export const Projects = () => {
               desc="React and TypeScript app. It is a simple website where you can write down tasks, things you need to buy or do."
             />
           </a>
+          <a href="https://weather-joagal.vercel.app/">
+            <ProjectsItems
+              img={Clima}
+              title="Weather"
+              desc="React app. It indicates the weather of four Argentine provinces."
+            />
+          </a>
           <a href="https://movie-joagal.vercel.app/">
             <ProjectsItems
               img={Movie}
@@ -65,13 +72,6 @@ export const Projects = () => {
               img={CandyWorld}
               title="Candy World"
               desc="React app. Where you will find different types of games with candies related to old Candy-Crush."
-            />
-          </a>
-          <a href="https://clima-joagal.vercel.app/">
-            <ProjectsItems
-              img={Clima}
-              title="Weather"
-              desc="React app. It indicates the weather of four Argentine provinces."
             />
           </a>
           <a href="https://dandgerous-cave-joagal.vercel.app/">
