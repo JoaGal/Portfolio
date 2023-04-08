@@ -14,7 +14,7 @@ export const Projects = () => {
     <div className="projects__container" id="projects">
       <div className="container">
         <div className="section__title">
-          <p>Algunos de mis ultimos trabjaos</p>
+          <p>Algunos de mis ultimos trabajos</p>
           <h2>Proyectos</h2>
         </div>
         <div className="projects__allItems">
