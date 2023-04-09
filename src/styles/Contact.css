@@ -17,7 +17,9 @@
   padding: 10rem 0;
   background-color: #f9f9f9;
   color: #2d2e32;
-  height: 100vh;
+  margin: 3rem;
+  border-radius: 2rem;
+  box-shadow: 0 0 10px #00000017;
 }
 
 .section__title {
@@ -135,6 +137,10 @@ textarea {
   cursor: pointer;
 }
 
+.contact__boxItem a{
+  font-size: 1.4rem;
+}
+
 .contact__info p {
   font-size: 1.8rem;
   line-height: 1.3em;
@@ -147,6 +153,10 @@ textarea {
     left: 3rem;
     top: 3rem;
     padding: 1rem 2rem;
+  }
+
+  .container__contact {
+    margin: 1rem;
   }
 
   .section__title p {
@@ -173,5 +183,9 @@ textarea {
   .contact__info p {
     font-size: 1.4rem;
     line-height: 1.3em;
+  }
+
+  .contact__boxItem a{
+    font-size: 1rem;
   }
 }
