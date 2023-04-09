@@ -172,6 +172,9 @@
         margin-bottom: 4rem;
         margin-top: -2rem;
     }
+    .hero__text span a {
+        font-size: 3rem;
+    }
     .skills {
         flex-direction: column;
         position: static;
