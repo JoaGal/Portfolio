@@ -1,13 +1,37 @@
-'use client';
-import { useState } from 'react';
-import { MdMenu } from 'react-icons/md';
+"use client";
+import Link from "next/link";
+import { useState } from "react";
+import { MdMenu } from "react-icons/md";
 
 export const NavBar = () => {
-    const [showNav, setShowNav] = useState(false);
+  const [showNav, setShowNav] = useState(false);
 
-    const changeState = () => {
-        setShowNav(!showNav);
-    };
+  const changeState = () => {
+    setShowNav(!showNav);
+  };
+
+  const componentsNav = [
+    {
+      id: 1,
+      name: "Inicio",
+      href: "#home",
+    },
+    {
+      id: 2,
+      name: "Perfil",
+      href: "#about",
+    },
+    {
+      id: 3,
+      name: "Proyectos",
+      href: "#projects",
+    },
+    {
+      id: 4,
+      name: "Contacto",
+      href: "#contact",
+    },
+  ];
 
   return (
     <div className="nav" onClick={changeState}>
@@ -20,43 +44,14 @@ export const NavBar = () => {
         <MdMenu />
       </div>
       <ul className="navItems" id={`${!showNav && "hide__item"}`}>
-        <li className="nav__li">
-          <a
-            href="#home"
-            onClick={changeState}
-            role="button"
-          >
-            Inicio
-          </a>
-        </li>
-        <li className="nav__li">
-          <a
-            href="#about"
-            onClick={changeState}
-            role="button"
-          >
-            Perfil
-          </a>
-        </li>
-        <li className="nav__li">
-          <a
-            href="#projects"
-            onClick={changeState}
-            role="button"
-          >
-            Proyectos
-          </a>
-        </li>
-        <li className="nav__li">
-          <a
-            href="#contact"
-            onClick={changeState}
-            role="button"
-          >
-            Contacto
-          </a>
-        </li>
+        {componentsNav.map((item) => (
+          <li className="nav__li" key={item.id}>
+            <a href={item.href} onClick={changeState} role="button">
+              {item.name}
+            </a>
+          </li>
+        ))}
       </ul>
     </div>
-  )
-}
+  );
+};
