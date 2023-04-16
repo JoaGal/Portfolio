@@ -46,9 +46,9 @@ export const NavBar = () => {
       <ul className="navItems" id={`${!showNav && "hide__item"}`}>
         {componentsNav.map((item) => (
           <li className="nav__li" key={item.id}>
-            <a href={item.href} onClick={changeState} role="button">
+            <Link href={item.href} scroll={false} onClick={changeState} role="button">
               {item.name}
-            </a>
+            </Link>
           </li>
         ))}
       </ul>
