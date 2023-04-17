@@ -18,67 +18,67 @@ export const Projects = () => {
           <h2>Proyectos</h2>
         </div>
         <div className="projects__allItems">
-          <a href="https://shooteraim-joagal.vercel.app/">
-            <ProjectsItems
-              img={ShooterAim}
-              title="ShooterAim"
-              desc="React app. Where you will be able to improve your precision, reaction and reflexes in shooting games."
-            />
-          </a>
           <a href="https://create-your-resume.vercel.app/">
             <ProjectsItems
               img={Resume}
               title="Create Resume"
-              desc="React app. On this website you can create your 100% professional resume. It will help you get a job."
-            />
-          </a>
-          <a href="https://expo.dev/@joagal/shooter-native">
-            <ProjectsItems
-              img={ShooterNative}
-              title="ShooterNative"
-              desc="React Native app. Created with expo-cli, it is a replica of ShooterAim, just change the programming language."
-            />
-          </a>
-          <a href="https://task-joagal.vercel.app/">
-            <ProjectsItems
-              img={Task}
-              title="Task"
-              desc="React and TypeScript app. It is a simple website where you can write down tasks, things you need to buy or do."
+              desc="React app. En esta web podes crear tu currículum 100% profesional. Te ayudará a conseguir un trabajo."
             />
           </a>
           <a href="https://weather-joagal.vercel.app/">
             <ProjectsItems
               img={Clima}
               title="Weather"
-              desc="React app. It indicates the weather of four Argentine provinces."
+              desc="Nextjs y Fribase. Podes buscar el clima de cualquier ciudad del mundo. Te dirá la temperatura, humedad y viento."
+            />
+          </a>
+          <a href="https://shooteraim-joagal.vercel.app/">
+            <ProjectsItems
+              img={ShooterAim}
+              title="ShooterAim"
+              desc="React app. Donde podras mejorar tu precisión, reacción y reflejos en juegos de disparos."
+            />
+          </a>
+          <a href="https://task-joagal.vercel.app/">
+            <ProjectsItems
+              img={Task}
+              title="Task"
+              desc="React y TypeScript app. Es un sitio web simple donde puedes anotar tareas, cosas que necesitas comprar o hacer."
             />
           </a>
           <a href="https://movie-joagal.vercel.app/">
             <ProjectsItems
               img={Movie}
               title="Movie"
-              desc="React app. In this place you can search for movies of all genres, see their rating and review."
+              desc="React app. En este lugar puedes buscar películas de todos los géneros, ver su calificación y reseña."
             />
           </a>
           <a href="https://pokemon-joagal.vercel.app/">
             <ProjectsItems
               img={Pokemon}
               title="Pokemon"
-              desc="React app. Where are you going to find your pokemones, see their characteristics and abilities."
+              desc="React app. Aca vas a encontrar tus pokemones, mira sus caracteristicas y habilidades."
+            />
+          </a>
+          <a href="https://expo.dev/@joagal/shooter-native">
+            <ProjectsItems
+              img={ShooterNative}
+              title="ShooterNative"
+              desc="React Native app. Creado con expo-cli, es una réplica de ShooterAim, solo cambia el lenguaje de programación."
             />
           </a>
           <a href="https://candy-world-git-master-joagal.vercel.app/">
             <ProjectsItems
               img={CandyWorld}
               title="Candy World"
-              desc="React app. Where you will find different types of games with candies related to old Candy-Crush."
+              desc="React app. Donde encontrarás diferentes tipos de juegos con caramelos relacionados con el antiguo Candy-Crush."
             />
           </a>
           <a href="https://dandgerous-cave-joagal.vercel.app/">
             <ProjectsItems
               img={DangerousCave}
               title="DangerousCave"
-              desc="JavaScript and Canvas PC Game. Dodge the stalactites and make the best score."
+              desc="JavaScript y Canvas PC Game. Esquiva las estalactitas y consigue la mejor puntuación."
             />
           </a>
         </div>
