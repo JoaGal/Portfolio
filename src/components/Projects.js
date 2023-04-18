@@ -8,6 +8,7 @@ import Task from "../Assets/images/Task.ico";
 import ShooterAim from "../Assets/images/ShooterAim.ico";
 import DangerousCave from "../Assets/images/DangerousCave.ico";
 import ShooterNative from "../Assets/images/ShooterNative.ico";
+import OurFoods from "../Assets/images/OurFoods.ico";
 
 export const Projects = () => {
   return (
@@ -30,6 +31,13 @@ export const Projects = () => {
               img={Clima}
               title="Weather"
               desc="Nextjs y Fribase. Podes buscar el clima de cualquier ciudad del mundo. Te dirá la temperatura, humedad y viento."
+            />
+          </a>
+          <a href="https://our-foods-joagal.vercel.app/">
+            <ProjectsItems
+              img={OurFoods}
+              title="OurFoods"
+              desc="Nextjs. Entra y encontra recetas de comidas de cualquier parte del mundo. Te dirá los ingredientes y como prepararla."
             />
           </a>
           <a href="https://shooteraim-joagal.vercel.app/">
