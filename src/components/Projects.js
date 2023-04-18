@@ -19,7 +19,7 @@ export const Projects = () => {
           <h2>Proyectos</h2>
         </div>
         <div className="projects__allItems">
-          <a href="https://create-your-resume.vercel.app/">
+          <a href="https://create-cv-s.vercel.app/">
             <ProjectsItems
               img={Resume}
               title="Create Resume"
