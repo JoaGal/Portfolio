@@ -46,7 +46,6 @@ button{
 body {
   font-family: Poppins,sans-serif;
   background-color: #ffffff;
-  background: url("../assets/images/Joa.jpeg");
   color: rgb(var(--foreground-rgb));
 }
 
