@@ -40,7 +40,6 @@ export const About = () => {
             "Creo componentes reutilizables. Desarrollo sitios web responsive y actualizo diseños.",
           ]}
         />
-        <p>Hola</p>
       </div>
       <div className="about__info__item">
         <h1 className="about__info__heading">Educacion</h1>
