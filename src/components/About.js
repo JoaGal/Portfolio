@@ -37,6 +37,11 @@ export const About = () => {
           items={[
             "Desarrollador Front-end - Hibrido - Corrientes, Argentina.",
             "04/10/22 - Actualidad",
+          ]}
+        />
+        <AboutItem
+          title=" "
+          items={[
             "Creo componentes reutilizables. Desarrollo sitios web responsive y actualizo diseños.",
           ]}
         />
