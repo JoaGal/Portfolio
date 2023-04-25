@@ -31,6 +31,13 @@ export const About = () => {
         </div>
       </div>
       <div className="about__info__item">
+        <h1 className="about__info__heading">Experiencia</h1>
+        <AboutItem
+          title="ITERART"
+          items={["Desarrollador Front-end - Hibrido - Corrientes, Argentina", "04/10/22 - Actualidad"]}
+        />
+      </div>
+      <div className="about__info__item">
         <h1 className="about__info__heading">Educacion</h1>
         <AboutItem
           title="Secundaria"
