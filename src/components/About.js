@@ -35,7 +35,7 @@ export const About = () => {
         <AboutItem
           title="ITERART"
           items={[
-            "Desarrollador Front-end - Hibrido - Corrientes, Argentina.",
+            "Desarrollador Front-end - Hibrido - Resistencia, Argentina.",
             "04/10/22 - Actualidad",
           ]}
         />
