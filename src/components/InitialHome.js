@@ -2,6 +2,7 @@ import { BsGithub, BsLinkedin } from "react-icons/bs";
 import hand from "../Assets/images/hand.png";
 import {SiCss3, SiHtml5, SiJavascript, SiMicrosoftsqlserver, SiNextdotjs, SiReact, SiTypescript } from "react-icons/si";
 import Image from "next/image";
+import Link from "next/link";
 
 export const InitialHome = () => {
   return (
@@ -17,22 +18,22 @@ export const InitialHome = () => {
                   que vive en Argentina. 📍
                 </p>
                 <span>
-                  <a
+                  <Link
                     aria-label="linkedin"
                     rel="noreferrer"
                     target="_blank"
                     href="https://www.linkedin.com/in/joaquin-galdeano-174281209/"
                   >
                     <BsLinkedin  color="#2d2e32"/>
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     aria-label="github"
                     rel="noreferrer"
                     target="_blank"
                     href="https://github.com/JoaGal"
                   >
                     <BsGithub color="#2d2e32"/>
-                  </a>
+                  </Link>
                 </span>
               </div>
               <div className="hero__image"></div>
