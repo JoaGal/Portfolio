@@ -70,7 +70,7 @@ export const About = () => {
         />
         <AboutItem
           title="Curso"
-          items={["Programacion / Testing de la Universidad Tecnologica Nacional - Argentina pROGRAMA 4.0"]}
+          items={["Programacion / Testing de la Universidad Tecnologica Nacional - Argentina Programa 4.0"]}
         />
         <AboutItem
           title="Curso"
