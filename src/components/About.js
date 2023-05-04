@@ -67,7 +67,11 @@ export const About = () => {
         <AboutItem
           title="Curso"
           items={["Master en SQL Server - Udemy (Mariano Puglisi)"]}
-        />{" "}
+        />
+        <AboutItem
+          title="Secundaria"
+          items={["Programacion / Testing de la Universidad Tecnologica Nacional - Argentina pROGRAMA 4.0"]}
+        />
         <AboutItem
           title="Curso"
           items={["Desarrollo Web (PYTHON-DJANGO & SQL SERVER) - Informatorio"]}
