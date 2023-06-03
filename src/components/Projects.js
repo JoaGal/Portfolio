@@ -1,4 +1,5 @@
 import ProjectsItems from "./projectsItems/ProjectsItems";
+import invoices from "../Assets/images/invoices.ico";
 import Movie from "../Assets/images/Movie.ico";
 import CandyWorld from "../Assets/images/CandyWorld.ico";
 import Pokemon from "../Assets/images/Pokemon.ico";
@@ -20,6 +21,13 @@ export const Projects = () => {
           <h2>Proyectos</h2>
         </div>
         <div className="projects__allItems">
+          <Link target="_blank" href="https://invoices-joagal.vercel.app/">
+            <ProjectsItems
+              img={invoices}
+              title="Invoices"
+              desc="Vite app usando Redux y Tailwind. Vas a poder agendar todas las facturas para ser organizado y no olvidartelas."
+            />
+          </Link>
           <Link target="_blank" href="https://create-cv-s.vercel.app/">
             <ProjectsItems
               img={Resume}
