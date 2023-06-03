@@ -25,7 +25,7 @@ export const Projects = () => {
             <ProjectsItems
               img={invoices}
               title="Invoices"
-              desc="Vite app usando Redux y Tailwind. Vas a poder agendar todas las facturas para ser organizado y no olvidartelas."
+              desc="Vite app usando Redux y Tailwind. Podes agendar todas las facturas para ser organizado y no olvidartelas."
             />
           </Link>
           <Link target="_blank" href="https://create-cv-s.vercel.app/">
