@@ -39,14 +39,14 @@ export const Projects = () => {
             <ProjectsItems
               img={Clima}
               title="Weather"
-              desc="Nextjs y Fribase. Podes buscar el clima de cualquier ciudad del mundo. Te dirá la temperatura, humedad y viento."
+              desc="Nextjs y Fribase app. Podes buscar el clima de cualquier parte del mundo. Te dirá la temperatura, humedad..."
             />
           </Link>
           <Link target="_blank" href="https://our-foods-joagal.vercel.app/">
             <ProjectsItems
               img={OurFoods}
               title="OurFoods"
-              desc="Nextjs. Entra y encontra recetas de comidas de cualquier parte del mundo. Te dirá los ingredientes y como prepararla."
+              desc="Nextjs con Redux. Encontra recetas de cualquier parte del mundo. Te dirá los ingredientes y como prepararla."
             />
           </Link>
           <Link target="_blank" href="https://shooteraim-joagal.vercel.app/">
