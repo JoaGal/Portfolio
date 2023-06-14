@@ -9,7 +9,7 @@ import Task from "../Assets/images/Task.ico";
 import ShooterAim from "../Assets/images/ShooterAim.ico";
 import DangerousCave from "../Assets/images/DangerousCave.ico";
 import ShooterNative from "../Assets/images/ShooterNative.ico";
-import Trasport from "../Assets/images/Trasport.ico";
+import Transport from "../Assets/images/Transport.ico";
 import OurFoods from "../Assets/images/OurFoods.ico";
 import Link from "next/link";
 
@@ -40,13 +40,13 @@ export const Projects = () => {
             <ProjectsItems
               img={Clima}
               title="Weather"
-              desc="Nextjs y Fribase app. Podes buscar el clima de cualquier parte del mundo. Te dirá la temperatura, humedad..."
+              desc="Nextjs con Fribase app. Podes buscar el clima de cualquier parte del mundo. Te dirá la temperatura, humedad..."
             />
           </Link>
-          <Link target="_blank" href="https://weather-joagal.vercel.app/">
+          <Link target="_blank" href="https://expo.dev/@joagal/transport-app">
             <ProjectsItems
-              img={Trasport}
-              title="Trasport"
+              img={Transport}
+              title="Transport"
               desc="React native app. Podras encontrar diferentes transportes para viajar. Te dirá el precio, duración..."
             />
           </Link>
@@ -54,7 +54,14 @@ export const Projects = () => {
             <ProjectsItems
               img={OurFoods}
               title="OurFoods"
-              desc="Nextjs y Redux app. Encontra recetas de cualquier parte del mundo. Te dirá los ingredientes y como prepararla."
+              desc="Nextjs con Redux app. Encontra recetas de cualquier parte del mundo. Te dirá los ingredientes y como prepararla."
+            />
+          </Link>
+          <Link target="_blank" href="https://expo.dev/@joagal/shooter-native">
+            <ProjectsItems
+              img={ShooterNative}
+              title="ShooterNative"
+              desc="React Native app. Creado con expo-cli, es una réplica de ShooterAim, solo cambia el lenguaje de programación."
             />
           </Link>
           <Link target="_blank" href="https://shooteraim-joagal.vercel.app/">
@@ -68,7 +75,7 @@ export const Projects = () => {
             <ProjectsItems
               img={Task}
               title="Task"
-              desc="React y TypeScript app. Es un sitio web simple donde puedes anotar tareas, cosas que necesitas comprar o hacer."
+              desc="React con TypeScript app. Es un sitio web simple donde puedes anotar tareas, cosas que necesitas comprar o hacer."
             />
           </Link>
           <Link target="_blank" href="https://movie-joagal.vercel.app/">
@@ -83,13 +90,6 @@ export const Projects = () => {
               img={Pokemon}
               title="Pokemon"
               desc="React app. Aca vas a encontrar tus pokemones, mira sus caracteristicas y habilidades."
-            />
-          </Link>
-          <Link target="_blank" href="https://expo.dev/@joagal/shooter-native">
-            <ProjectsItems
-              img={ShooterNative}
-              title="ShooterNative"
-              desc="React Native app. Creado con expo-cli, es una réplica de ShooterAim, solo cambia el lenguaje de programación."
             />
           </Link>
           <Link target="_blank" href="https://candy-world-git-master-joagal.vercel.app/">
