@@ -11,6 +11,7 @@ import DangerousCave from "../Assets/images/DangerousCave.ico";
 import ShooterNative from "../Assets/images/ShooterNative.ico";
 import Transport from "../Assets/images/Transport.ico";
 import OurFoods from "../Assets/images/OurFoods.ico";
+import ControlSotck from "../Assets/images/ControlStock.ico";
 import Link from "next/link";
 
 export const Projects = () => {
@@ -22,6 +23,13 @@ export const Projects = () => {
           <h2>Proyectos</h2>
         </div>
         <div className="projects__allItems">
+          <Link target="_blank" href="https://control-stock-joagal.vercel.app/">
+            <ProjectsItems
+              img={ControlSotck}
+              title="Control Stock"
+              desc="MERN Stack (MySQL, Express, React, Nodejs). Podes controlar, editar y calcular el stock de mercaderia."
+            />
+          </Link>
           <Link target="_blank" href="https://invoices-joagal.vercel.app/">
             <ProjectsItems
               img={invoice}
