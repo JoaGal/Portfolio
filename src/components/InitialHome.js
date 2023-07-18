@@ -19,21 +19,20 @@ export const InitialHome = () => {
                 </p>
                 <span>
                   <Link
-                    aria-label="linkedin"
-                    rel="noreferrer"
                     target="_blank"
                     href="https://www.linkedin.com/in/joaquin-galdeano-174281209/"
                   >
                     <BsLinkedin  color="#2d2e32"/>
                   </Link>
                   <Link
-                    aria-label="github"
-                    rel="noreferrer"
                     target="_blank"
                     href="https://github.com/JoaGal"
                   >
                     <BsGithub color="#2d2e32"/>
                   </Link>
+                  <a id="hero__button" href="./Mi-Curriculum.pdf" download="JoaquinGaldeano_CV">
+                    Descargar CV
+                  </a>
                 </span>
               </div>
               <div className="hero__image"></div>
