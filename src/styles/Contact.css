@@ -141,10 +141,9 @@ textarea {
   font-size: 1.4rem;
 }
 
-.contact__info p {
-  font-size: 1.8rem;
+.contact__text {
+  font-size: 1.7rem;
   line-height: 1.3em;
-  margin-left: -1.5rem;
 }
 
 @media only screen and (max-width: 1050px) {
@@ -180,7 +179,7 @@ textarea {
     padding: 4rem 2rem 2rem 2rem;
   }
 
-  .contact__info p {
+  .contact__text {
     font-size: 1.4rem;
     line-height: 1.3em;
   }

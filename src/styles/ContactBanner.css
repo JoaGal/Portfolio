@@ -10,7 +10,6 @@
 
 .contactBanner__wrapper h3 {
     font-size: 4rem;
-    margin-bottom: 2rem;
 }
 
 .contactBanner__wrapper button {
@@ -30,6 +29,7 @@
     line-height: 1.3em;
     color: #767676;
     font-family: Mulish, sans-serif;
+    margin-bottom: 2rem;
 }
 
 .contactbanner__icon {

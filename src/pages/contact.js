@@ -1,5 +1,6 @@
 import { useRef } from "react";
-import { MdPlace, MdLocalPhone } from "react-icons/md";
+import { MdLocalPhone } from "react-icons/md";
+import {BsGithub} from "react-icons/bs"
 import { AiFillLinkedin } from "react-icons/ai";
 import emailjs from "@emailjs/browser";
 import Head from "next/head";
@@ -57,37 +58,36 @@ export default function Contact() {
       <div className="container__contact">
         <div className="container">
           <div className="section__title">
-            <p>Ponete en contacto</p>
             <h2>Contactos</h2>
+            <p>Ponete en contacto</p>
           </div>
           <form onSubmit={handleSubmit} ref={form}>
             <div className="contactSection__wrapper">
               <div className="left">
                 <div className="contact__boxItem">
                   <div className="contact__icon">
-                    <MdLocalPhone className="icon-c" color="#1a1a1a" />
+                    <MdLocalPhone className="icon-c" color="#b3b3b3" />
                   </div>
-                  <div className="contact__info">
-                    <p className="p-text">+3624712344</p>
-                  </div>
+                  <p className="contact__text">+54 3624712344</p>
                 </div>
                 <div className="contact__boxItem">
                   <div className="contact__icon">
                     <AiFillLinkedin className="icon-c" color="#007acc" />
                   </div>
-                  <a href="https://www.linkedin.com/in/joaquin-galdeano-174281209/">
-                    <p>
-                      https://www.linkedin.com/in/joaquin-galdeano-174281209/
-                    </p>
-                  </a>
+                  <Link
+                    href="https://www.linkedin.com/in/joaquin-galdeano-174281209/"
+                    target="_blanck"
+                  >
+                    www.linkedin.com/in/joaquin-galdeano-174281209/
+                  </Link>
                 </div>
                 <div className="contact__boxItem">
                   <div className="contact__icon">
-                    <MdPlace className="icon-c" color="#b32400" />
+                    <BsGithub className="icon-c" color="#333333" />
                   </div>
-                  <div className="contact__info">
-                    <p>Chaco, Argentina</p>
-                  </div>
+                  <Link href="https://github.com/JoaGal" target="_blanck">
+                    github.com/JoaGal
+                  </Link>
                 </div>
               </div>
               <div className="right">
