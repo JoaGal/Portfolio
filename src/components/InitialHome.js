@@ -11,11 +11,10 @@ export const InitialHome = () => {
           <div className="hero__content">
             <div className="hero__main">
               <div className="hero__text">
-                <h1>Front-End React Developer</h1>
+                <h1>Soy Joaquin Galdeano</h1>
                 <Image src={hand} alt="waving_hand" />
                 <p>
-                  Hola, Soy Joaquin Galdeano. Desarrollador Front-end Developer,
-                  que vive en Argentina. 📍
+                 Tengo 22 años y trabajo como Desarrollador Frontend desde Argetina. 📍
                 </p>
                 <span>
                   <Link
