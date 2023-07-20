@@ -16,7 +16,14 @@ export const About = () => {
             </h3>
             <p>
               Empece con progrmacion en 2021, iniciando con HTML, CSS y JavaScript. Creando pequeños proyectos. <br />
-              En el año 2022 consegui mi primer trabajo como Desarrollador Frontend en ITERART y hoy dia me encuentro trabajando con •React, •Next, •TypeScript, •Redux, •Nodejs, •SQL Server y •MySQL.
+              En el año 2022 consegui mi primer trabajo como Desarrollador Frontend en ITERART y hoy dia me encuentro trabajando con:<br />
+              •React<br />
+              •Next<br /> 
+              •TypeScript<br/>
+              •Redux<br />
+              •Nodejs<br />
+              •SQL Server<br />
+              •MySQL.<br />
               Sigo aprendiendo y mejorando mis habilidades. <br />
               Me gusta hacer deporte, programar, la musica y junterme con amigos.
             </p>
