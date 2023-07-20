@@ -10,6 +10,12 @@
     backdrop-filter: blur(4px);
     position: fixed;
     box-shadow: 0 0 15px #0000001a;
+    transition: all 1s ease-in-out;
+  }
+
+  #darkmode .nav{
+    background-color: #0000007a;
+    box-shadow: 0 0 15px #ffffff34;
   }
   
   .navItems {
@@ -22,12 +28,13 @@
   .nav__li {
     display: inline-block;
     border-radius: 8px;
-    transition: 0.3s ease;
     font-weight: 800;
   }
   
   .nav__li a:hover {
     color: #086bff;
+    text-decoration: underline 5px; 
+    transition: 0.5s;
   }
   
   .nav__li a {
@@ -36,7 +43,17 @@
     font-size: 2rem;
     color: #2d2e32;
     outline: none;
+    transition: all 1s ease-in-out;
   }
+
+  #darkmode .nav__li a{
+    color: #fafafa;
+  }
+
+  #darkmode .nav__li a:hover{
+    color: #086bff;
+  }
+
   
   .active {
     color: #086bff;
@@ -51,6 +68,10 @@
     display: none;
     outline: none;
     color: #2d2e32;
+  }
+
+  #darkmode .mobile__menu__icon{
+    color: #fafafa;
   }
   
   

@@ -4,8 +4,11 @@ import { NavBar } from "@/components/NavBar";
 import { Projects } from "@/components/Projects";
 import Head from "next/head";
 import { InitialHome } from "../components/InitialHome";
+import { useState } from "react";
 
 export default function Home() {
+  const [toggled, setToggled] = useState(false);
+
   return (
     <>
       <Head>
@@ -17,8 +20,8 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/Portfolio.ico" />
       </Head>
-      <main>
-        <NavBar />
+      <main id={`${toggled && "darkmode"}`}>
+        <NavBar toggled={toggled} setToggled={setToggled}/>
         <InitialHome />
         <About />
         <Projects />

@@ -1,6 +1,11 @@
 .about {
   padding: 15rem 0;
   background-color: #fff;
+  transition: all 1s ease-in-out;
+}
+
+#darkmode .about {
+  background-color: #000000f3;
 }
 
 .about__container {
@@ -21,9 +26,19 @@
 }
 
 .img__side__main-img {
-  border-radius: 1.7rem;
-  height: 35rem;
-  width: 41rem;
+  background-image: url(../Assets/images/Joa.jpeg);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 3px solid #2d2e32;
+  height: 45rem;
+  transition: all 1s ease-in-out;
+  width: 35rem;
+  animation: morph 7s ease-in-out infinite;
+}
+
+#darkmode .img__side__main-img {
+  border: 3px solid #fafafa;
 }
 
 .text__side {
@@ -40,17 +55,26 @@
 
 .text__side h3 {
   color: #2d2e32;
-  font-size: 2.5rem;
+  font-size: 2rem;
   line-height: 1.4;
   margin-bottom: 2rem;
+  transition: all 1s ease-in-out;
+}
+
+#darkmode .text__side h3 {
+  color: #fafafa;
 }
 
 .text__side p {
   color: #767676;
   font-family: Mulish, sans-serif;
-  font-size: 1.7rem;
-  font-weight: 500;
+  font-size: 1.8rem;
   line-height: 1.5;
+  transition: all 1s ease-in-out;
+}
+
+#darkmode .text__side p {
+  color: #dcdcdc;
 }
 
 .about__info__item {
@@ -63,6 +87,20 @@
   font-size: 3.6rem;
   text-transform: uppercase;
   color: #147efb;
+}
+
+@keyframes morph {
+  0% {
+      border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+
+  50% {
+      border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+  }
+
+  100% {
+      border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
 }
 
 @media only screen and (max-width: 1020px) {
@@ -96,3 +134,5 @@
     width: 90%;
   }
 }
+
+

@@ -1,0 +1,82 @@
+.btn{
+    background: #c1dee8;
+    width: 8em;
+    height: 4em;
+    border-radius: 10em;
+    padding: 0 0.5em;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.43) inset;
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.43) inset;
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.43) inset;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+  }
+  
+  .btn__indicator{
+    background-color: #fafafa;
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    position: absolute;
+    box-shadow: 0 8px 40px rgba(0,0,0, .2);
+    transition: all 1s ease-in-out;
+  }
+  
+  .btn__icon-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .btn__icon{
+    color: #e8d90f;
+    width: 70%;
+    height: 70%;
+    transition: all 1s ease-in-out;
+  }
+  
+  /* -------------- ANIMATION ------------ */
+  .btn__icon .animated{
+    animation: spin 0.5s;
+  }
+  
+  @keyframes spin{
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  /* -------------- DARKMODE -------------- */
+  
+  #darkmode .btn{
+    background: #514980;  
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.69) inset;
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.69) inset;
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.69) inset;
+  }
+  
+  #darkmode .btn__indicator{
+    transform: translateX(4em);
+    background-color: #222;
+    box-shadow: 0 8px 40px rgba(0,0,0, .3);
+  }
+  
+  #darkmode .btn__icon{
+    color: #beb7f2;
+  }
+
+  
+
+  @media screen and (max-width: 768px) {
+    
+    .btn{
+      top: 10px;
+      left: 10px;
+    }
+  }

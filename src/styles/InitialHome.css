@@ -5,13 +5,18 @@
     height: auto;
     position: relative;
     width: 100%;
+    transition: all 1s ease-in-out;
+    padding-bottom: 10rem ;
+}
+
+#darkmode .hero {
+    background-color: #000000e5;
 }
 
 .hero__container {
     margin: 0 auto;
     max-width: 107rem;
     padding: 0 4rem;
-    margin-bottom: 3rem;
 }
 
 .hero__content {
@@ -47,8 +52,11 @@
     height: 35rem;
     transition: all 1s ease-in-out;
     width: 35rem;
-    animation: morph 7s ease-in-out infinite;
-    
+    animation: morph 7s ease-in-out infinite;  
+}
+
+#darkmode .hero__image {
+    border: 3px solid #fafafa;
 }
 
 .hero__text h1 {
@@ -57,6 +65,20 @@
     line-height: 1.2;
     margin-bottom: 2rem;
     margin-top: 2rem;
+    transition: all 1s ease-in-out;
+}
+
+.hero__icon-button{
+    color: #2d2e32;
+    transition: all 1s ease-in-out;
+}
+
+#darkmode .hero__icon-button{
+    color: #fafafa;
+}
+
+#darkmode .hero__text h1 {
+    color: #fafafa;
 }
 
 .hero__text img {
@@ -74,6 +96,11 @@
     font-size: 1.8rem;
     font-weight: 500;
     line-height: 1.6;
+    transition: all 1s ease-in-out;
+}
+
+#darkmode .hero__text p {
+    color: #dcdcdc;
 }
 
 .hero__text span {
@@ -96,6 +123,12 @@
     font-size: 2rem;
     padding: 0.5rem;
     margin-left: 0.5rem;
+    transition: all 1s ease-in-out; 
+}
+
+#darkmode #hero__button{
+    border: 0.3rem solid #fafafa;
+    color: #fafafa;
 }
 
 .hero__text span a:hover {
@@ -105,12 +138,10 @@
 .skills {
     align-items: center;
     bottom: 1rem;
-    color: #767676;
     display: flex;
     font-size: 1.7rem;
     left: 0;
-    position: absolute;
-    
+    position: absolute;   
 }
 
 .skills p {
@@ -119,6 +150,12 @@
     font-weight: 600;
     margin-right: 7rem;
     padding-right: 2rem;
+    transition: all 1s ease-in-out;
+}
+
+#darkmode .skills p {
+    color: #fafafa;
+    border-color: #fafafa;
 }
 
 .skills ul {

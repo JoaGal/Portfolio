@@ -21,13 +21,13 @@ export const InitialHome = () => {
                     target="_blank"
                     href="https://www.linkedin.com/in/joaquin-galdeano-174281209/"
                   >
-                    <BsLinkedin  color="#2d2e32"/>
+                    <BsLinkedin className="hero__icon-button"/>
                   </Link>
                   <Link
                     target="_blank"
                     href="https://github.com/JoaGal"
                   >
-                    <BsGithub color="#2d2e32"/>
+                    <BsGithub className="hero__icon-button"/>
                   </Link>
                   <a id="hero__button" href="./Mi-Curriculum.pdf" download="JoaquinGaldeano_CV">
                     Descargar CV

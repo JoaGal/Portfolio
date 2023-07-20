@@ -1,30 +1,22 @@
 .projects__container {
     padding: 10rem 0;
     background-color: #f9f9f9;
+    transition: all 1s ease-in-out;
 }
 
+#darkmode .projects__container {
+    background-color: #000000e5;
+}
 .projects__container h2{
     color: #147efb;
 }
 .projects__container P{
     color: #767676;
     font-family: Mulish, sans-serif;
+    margin-bottom: 2rem;
+    transition: all 1s ease-in-out;
 }
 
-.projects__allItems {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 5rem;
-    margin-top: 5rem;
-    
-}
-.projects__allItems a{
-    background-color: #ffffff;
-    box-shadow: 0 0 10px rgba(0,0,0,.09);
-    border-radius: 2rem ;
-}
-
-.projectItem__info p{
-    color: #767676;
-    font-family: Mulish, sans-serif;
+#darkmode .projects__container P{
+    color: #dcdcdc;
 }

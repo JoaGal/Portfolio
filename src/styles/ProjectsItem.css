@@ -18,6 +18,10 @@
   color: #2d2e32;
 }
 
+#darkmode .projectItem__title {
+  color: #fafafa;
+}
+
 .projectItem__desc {
   font-size: 1.6rem;
   font-family: Mulish, sans-serif;

@@ -2,8 +2,9 @@
 import Link from "next/link";
 import { useState } from "react";
 import { MdMenu } from "react-icons/md";
+import { ButtonTheme } from "./NavbarComponents/ButtonTheme";
 
-export const NavBar = () => {
+export const NavBar = ({toggled, setToggled}) => {
   const [showNav, setShowNav] = useState(false);
 
   const changeState = () => {
@@ -34,14 +35,14 @@ export const NavBar = () => {
   ];
 
   return (
-    <div className="nav" onClick={changeState}>
+    <div className="nav">
       <div
         className="mobile__menu__icon"
         onClick={changeState}
         role="button"
         onKeyDown={changeState}
       >
-        <MdMenu />
+        <MdMenu/>
       </div>
       <ul className="navItems" id={`${!showNav && "hide__item"}`}>
         {componentsNav.map((item) => (
@@ -52,6 +53,7 @@ export const NavBar = () => {
           </li>
         ))}
       </ul>
+      <ButtonTheme toggled={toggled} setToggled={setToggled}/>
     </div>
   );
 };
