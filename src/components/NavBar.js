@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import { MdMenu } from "react-icons/md";
-import { ButtonTheme } from "./NavbarComponents/ButtonTheme";
+import { ButtonTheme } from "./navbarComponents/ButtonTheme";
 
 export const NavBar = ({toggled, setToggled}) => {
   const [showNav, setShowNav] = useState(false);
