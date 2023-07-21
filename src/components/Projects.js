@@ -38,12 +38,10 @@ export const Projects = () => {
     }
   };
   return (
-    <div className="projects__container" id="projects">
+    <div  id="projects">
       <div className="container">
-        <div className="section__title">
           <h2>Proyectos</h2>
           <p>Algunos de mis ultimos trabajos</p>
-        </div>
         <Carousel responsive={responsive}>
             <ProjectsItems
               img={ControlSotck}

@@ -3,10 +3,9 @@ import { MdLocalPhone } from "react-icons/md";
 import {BsGithub} from "react-icons/bs"
 import { AiFillLinkedin } from "react-icons/ai";
 import emailjs from "@emailjs/browser";
-import Head from "next/head";
 import Link from "next/link";
 
-export default function Contact() {
+export const ContactComponent = () => {
   const name = useRef("");
   const email = useRef("");
   const message = useRef("");
@@ -43,24 +42,10 @@ export default function Contact() {
   };
 
   return (
-    <>
-      <Head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Mulish:wght@600&family=Poppins:wght@700&display=swap"
-          rel="stylesheet"
-        />
-      </Head>
-      <Link href="/" className="contact__comeBack">
-        Inicio
-      </Link>
-      <div className="container__contact">
-        <div className="container">
-          <div className="section__title">
+
+        <div className="container" id="contactComponent">
             <h2>Contactos</h2>
             <p>Ponete en contacto</p>
-          </div>
           <form onSubmit={handleSubmit} ref={form}>
             <div className="contactSection__wrapper">
               <div className="left">
@@ -68,7 +53,7 @@ export default function Contact() {
                   <div className="contact__icon">
                     <MdLocalPhone className="icon-c" color="#b3b3b3" />
                   </div>
-                  <p className="contact__text">+54 3624712344</p>
+                  <span className="contact__text">+54 3624712344</span>
                 </div>
                 <div className="contact__boxItem">
                   <div className="contact__icon">
@@ -78,7 +63,7 @@ export default function Contact() {
                     href="https://www.linkedin.com/in/joaquin-galdeano-174281209/"
                     target="_blanck"
                   >
-                    www.linkedin.com/in/joaquin-galdeano-174281209/
+                   Joaquin Galdeano
                   </Link>
                 </div>
                 <div className="contact__boxItem">
@@ -128,15 +113,13 @@ export default function Contact() {
                       />
                     </label>
                   </div>
-                  <button type="submit" className="contact-button">
-                    Send
+                  <button type="submit" id="contact__button">
+                    SEND
                   </button>
                 </div>
               </div>
             </div>
           </form>
         </div>
-      </div>
-    </>
   );
 }

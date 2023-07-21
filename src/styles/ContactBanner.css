@@ -9,14 +9,14 @@
 
 #darkmode .contactBanner__wrapper {
     background-color: #000000f3;
-    box-shadow: 0 0 15px #ffffff34;
+    box-shadow: 0 0 15px #ffffff1a;
     color: #fafafa;
 }
 .contactBanner__wrapper h3 {
     font-size: 4rem;
 }
 
-.contactBanner__wrapper button {
+.contacBanner__button {
     border: none;
     color: #086bff;
     cursor: pointer;
@@ -27,7 +27,7 @@
     transition: all 1s ease-in-out;
 }
 
-#darkmode .contactBanner__wrapper button {
+#darkmode .contacBanner__button {
     background-color: #2d2e32;
     box-shadow: 0 0 7px #ffffffc3;
 }
