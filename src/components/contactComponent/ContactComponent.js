@@ -113,7 +113,7 @@ export const ContactComponent = () => {
                       />
                     </label>
                   </div>
-                  <button type="submit" id="contact__button">
+                  <button type="submit">
                     SEND
                   </button>
                 </div>
