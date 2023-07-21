@@ -13,7 +13,6 @@
     display: flex;
     align-items: center;
     cursor: pointer;
-    transition: all 1s ease-in-out;
   }
   
   .btn__indicator{
@@ -23,7 +22,6 @@
     border-radius: 50%;
     position: absolute;
     box-shadow: 0 8px 40px rgba(0,0,0, .2);
-    transition: all 1s ease-in-out;
   }
   
   .btn__icon-container{
@@ -38,7 +36,6 @@
     color: #e8d90f;
     width: 70%;
     height: 70%;
-    transition: all 1s ease-in-out;
   }
   
   /* -------------- ANIMATION ------------ */

@@ -1,7 +1,6 @@
 #projects {
     padding: 10rem 0;
     background-color: #f9f9f9;
-    transition: all 1s ease-in-out;
     text-align: center;
 }
 
@@ -17,7 +16,6 @@
     font-family: Mulish, sans-serif;
     font-size: 1.8rem;
     margin-bottom: 2rem;
-    transition: all 1s ease-in-out;
 }
 
 #darkmode #projects P{

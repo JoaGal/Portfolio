@@ -1,7 +1,6 @@
 .about {
   padding: 15rem 0;
   background-color: #fff;
-  transition: all 1s ease-in-out;
 }
 
 #darkmode .about {
@@ -32,7 +31,6 @@
   background-size: cover;
   border: 3px solid #2d2e32;
   height: 45rem;
-  transition: all 1s ease-in-out;
   width: 35rem;
   animation: morph 7s ease-in-out infinite;
 }
@@ -58,7 +56,6 @@
   font-size: 2rem;
   line-height: 1.4;
   margin-bottom: 2rem;
-  transition: all 1s ease-in-out;
 }
 
 #darkmode .text__side h3 {
@@ -70,7 +67,6 @@
   font-family: Mulish, sans-serif;
   font-size: 1.8rem;
   line-height: 1.5;
-  transition: all 1s ease-in-out;
 }
 
 #darkmode .text__side p {

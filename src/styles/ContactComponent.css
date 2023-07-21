@@ -14,7 +14,6 @@
   gap: 2rem;
   border-radius: 8px;
   margin-bottom: 2rem;
-  transition: all 1s ease-in-out;
 }
 
 .contact__icon {
@@ -31,6 +30,7 @@
   background-color: #000000ae;
   box-shadow: 0 0 15px #ffffff34;
 }
+
 
 .icon-c {
   width: 32px;
@@ -79,6 +79,11 @@
 .contact-label {
   font-size: 2rem;
   font-family: Mulish, sans-serif;
+  color: #222;
+}
+
+#darkmode .contact-label {
+  color: #fafafa;
 }
 
 .input-textarea {
@@ -90,7 +95,6 @@
   outline: none;
   border: none;
   margin-top: 1rem;
-  transition: all 1s ease-in-out;
   border-radius: 8px;
 }
 
@@ -128,6 +132,11 @@ textarea {
 .contact__text {
   font-size: 1.7rem;
   line-height: 1.3em;
+  color: #222;
+}
+
+#darkmode .contact__text {
+  color: #fafafa;
 }
 
 @media only screen and (max-width: 1050px) {
