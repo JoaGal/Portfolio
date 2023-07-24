@@ -1,0 +1,46 @@
+{
+    "navBar": {
+      "home": "Inicio",
+      "about": "Perfil",
+      "projects": "Proyectos",
+      "contact": "Contacto"
+    },
+    "initialHome": {
+      "title": "Soy",
+      "description": "Tengo 22 años y trabajo como Desarrollador Frontend desde Argetina.",
+      "button": "Descargar CV",
+      "skills": "Habilidades"
+    },
+    "about": {
+      "title": "SOBRE MI",
+      "subtitle": "Mi nombre es Joaquin Galdeano, tengo 22 años y soy de Resistencia, Chaco, Argentina.",
+      "description1": "Empece con progrmacion en 2021, iniciando con HTML, CSS y JavaScript. Creando pequeños proyectos.",
+      "description2": "En el año 2022 consegui mi primer trabajo como Desarrollador Frontend en ITERART y hoy dia me encuentro trabajando con:",
+      "description3": "Sigo aprendiendo y mejorando mis habilidades.",
+      "description4": "Me gusta hacer deporte, programar, la musica y junterme con amigos."
+    },
+    "projects": {
+      "title": "PROYECTOS",
+      "subtitle": "Algunos de mis ultimos trabajos",
+      "project1": "MERN Stack (MySQL, Express, React, Nodejs). Podes controlar, editar y calcular el stock de mercaderia.",
+      "project2": "Vite app usando Redux y Tailwind. Podes agendar todas las facturas para ser organizado y no olvidartelas.",
+      "project3": "React app. En esta web podes crear tu currículum 100% profesional. Te ayudará a conseguir un trabajo.",
+      "project4": "Nextjs con Redux app. Encontra recetas de cualquier parte del mundo. Te dirá los ingredientes y como prepararla.",
+      "project5": "React native app. Podras encontrar diferentes transportes para viajar. Te dirá el precio, duración...",
+      "project6": "React Native app. Creado con expo-cli, es una réplica de ShooterAim, solo cambia el lenguaje de programación.",
+      "project7": "React app. Donde podras mejorar tu precisión, reacción y reflejos en juegos de disparos.",
+      "project8": "React app. Aca vas a encontrar tus pokemones, mira sus caracteristicas y habilidades."
+    },
+    "contactBanner": {
+      "title": "Si necesitas contactarte conmigo",
+      "subtitle": "Tenes algo en mente?"
+    },
+    "contactComponent": {
+      "title": "Contactos",
+      "subtitle": "Ponete en contacto",
+      "name": "Nombre",
+      "email": "Email",
+      "message": "Mensaje",
+      "button": "ENVIAR"
+    }
+}

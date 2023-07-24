@@ -4,7 +4,7 @@ import { useState } from "react";
 import { MdMenu } from "react-icons/md";
 import { ButtonTheme } from "./navbarComponents/ButtonTheme";
 
-export const NavBar = ({toggled, setToggled}) => {
+export const NavBar = ({toggled, setToggled, t}) => {
   const [showNav, setShowNav] = useState(false);
 
   const changeState = () => {
@@ -14,22 +14,22 @@ export const NavBar = ({toggled, setToggled}) => {
   const componentsNav = [
     {
       id: 1,
-      name: "Inicio",
+      name:`${t.navBar.home}` ,
       href: "#home",
     },
     {
       id: 2,
-      name: "Perfil",
+      name: `${t.navBar.about}`,
       href: "#about",
     },
     {
       id: 3,
-      name: "Proyectos",
+      name: `${t.navBar.projects}`,
       href: "#projects",
     },
     {
       id: 4,
-      name: "Contacto",
+      name: `${t.navBar.contact}`,
       href: "#contact",
     },
   ];

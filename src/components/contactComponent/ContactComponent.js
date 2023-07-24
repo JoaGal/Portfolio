@@ -5,7 +5,7 @@ import { AiFillLinkedin } from "react-icons/ai";
 import emailjs from "@emailjs/browser";
 import Link from "next/link";
 
-export const ContactComponent = () => {
+export const ContactComponent = ({t}) => {
   const name = useRef("");
   const email = useRef("");
   const message = useRef("");
@@ -43,8 +43,8 @@ export const ContactComponent = () => {
 
   return (
     <div className="container" id="contactComponent">
-      <h2>Contactos</h2>
-      <p>Ponete en contacto</p>
+      <h2>{t.contactComponent.title}</h2>
+      <p>{t.contactComponent.subtitle}</p>
       <form onSubmit={handleSubmit} ref={form}>
         <div className="contactSection__wrapper">
           <div className="left">
@@ -83,7 +83,7 @@ export const ContactComponent = () => {
             <div className="contact-form">
               <div className="form-group">
                 <label htmlFor="name" className="contact-label">
-                  Nombre
+                  {t.contactComponent.name}
                   <input
                     className="input-textarea"
                     type="text"
@@ -95,7 +95,7 @@ export const ContactComponent = () => {
               </div>
               <div className="form-group">
                 <label htmlFor="email" className="contact-label">
-                  Email
+                  {t.contactComponent.email}
                   <input
                     className="input-textarea"
                     type="email"
@@ -107,7 +107,7 @@ export const ContactComponent = () => {
               </div>
               <div className="form-group">
                 <label htmlFor="message" className="contact-label">
-                  Mensaje
+                  {t.contactComponent.message}
                   <textarea
                     className="input-textarea"
                     type="text"
@@ -117,7 +117,7 @@ export const ContactComponent = () => {
                   />
                 </label>
               </div>
-              <button type="submit">SEND</button>
+              <button type="submit">{t.contactComponent.button}</button>
             </div>
           </div>
         </div>

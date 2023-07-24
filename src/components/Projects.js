@@ -3,21 +3,15 @@ import 'react-multi-carousel/lib/styles.css';
 
 import ProjectsItems from "./projectsItems/ProjectsItems";
 import invoice from "../Assets/images/Invoices.ico";
-import Movie from "../Assets/images/Movie.ico";
-import CandyWorld from "../Assets/images/CandyWorld.ico";
 import Pokemon from "../Assets/images/Pokemon.ico";
-import Clima from "../Assets/images/Clima.ico";
 import Resume from "../Assets/images/CV.ico";
-import Task from "../Assets/images/Task.ico";
 import ShooterAim from "../Assets/images/ShooterAim.ico";
-import DangerousCave from "../Assets/images/DangerousCave.ico";
 import ShooterNative from "../Assets/images/ShooterNative.ico";
 import Transport from "../Assets/images/Transport.ico";
 import OurFoods from "../Assets/images/OurFoods.ico";
 import ControlSotck from "../Assets/images/ControlStock.ico";
-import Link from "next/link";
 
-export const Projects = () => {
+export const Projects = ({t}) => {
   const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
@@ -40,56 +34,56 @@ export const Projects = () => {
   return (
     <div  id="projects">
       <div className="container">
-          <h2>Proyectos</h2>
-          <p>Algunos de mis ultimos trabajos</p>
+          <h2>{t.projects.title}</h2>
+          <p>{t.projects.subtitle}</p>
         <Carousel responsive={responsive}>
             <ProjectsItems
               img={ControlSotck}
               title="Control Stock"
               links="https://control-stock-joagal.vercel.app/"
-              desc="MERN Stack (MySQL, Express, React, Nodejs). Podes controlar, editar y calcular el stock de mercaderia."
+              desc={t.projects.project1}
             />
             <ProjectsItems
               img={invoice}
               title="Invoices"
               links="https://invoices-joagal.vercel.app/"
-              desc="Vite app usando Redux y Tailwind. Podes agendar todas las facturas para ser organizado y no olvidartelas."
+              desc={t.projects.project2}
             />
             <ProjectsItems
               img={Resume}
               title="Create Resume"
               links="https://create-cv-s.vercel.app/"
-              desc="React app. En esta web podes crear tu currículum 100% profesional. Te ayudará a conseguir un trabajo."
+              desc={t.projects.project3}
             />
             <ProjectsItems
               img={OurFoods}
               title="OurFoods"
               links="https://our-foods-joagal.vercel.app/"
-              desc="Nextjs con Redux app. Encontra recetas de cualquier parte del mundo. Te dirá los ingredientes y como prepararla."
+              desc={t.projects.project4}
             />
             <ProjectsItems
               img={Transport}
               title="Transport"
               links="https://expo.dev/@joagal/transport-app"
-              desc="React native app. Podras encontrar diferentes transportes para viajar. Te dirá el precio, duración..."
+              desc={t.projects.project5}
             />
             <ProjectsItems
               img={ShooterNative}
               title="ShooterNative"
               links="https://expo.dev/@joagal/shooter-native"
-              desc="React Native app. Creado con expo-cli, es una réplica de ShooterAim, solo cambia el lenguaje de programación."
+              desc={t.projects.project6}
             />
             <ProjectsItems
               img={ShooterAim}
               title="ShooterAim"
               links="https://shooteraim-joagal.vercel.app/"
-              desc="React app. Donde podras mejorar tu precisión, reacción y reflejos en juegos de disparos."
+              desc={t.projects.project7}
             />
             <ProjectsItems
               img={Pokemon}
               title="Pokemon"
               links="https://pokemon-joagal.vercel.app/"
-              desc="React app. Aca vas a encontrar tus pokemones, mira sus caracteristicas y habilidades."
+              desc={t.projects.project8}
             />
           </Carousel>
         {/* <div className="projects__allItems">

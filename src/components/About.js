@@ -1,7 +1,7 @@
 import AboutImg from "../Assets/images/JoaTotal.jpeg";
 import Image from "next/image";
 
-export const About = () => {
+export const About = ({t}) => {
   return (
     <div className="about" id="about">
       <div className="about__container">
@@ -10,13 +10,13 @@ export const About = () => {
             <Image src={AboutImg} alt="mee" className="img__side__main-img" />
           </div>
           <div className="text__side">
-            <h4>Sobre Mi</h4>
+            <h4>{t.about.title}</h4>
             <h3>
-             Mi nombre es Joaquin Galdeano, tengo 22 años y soy de Resistencia, Chaco, Argentina.
+              {t.about.subtitle}
             </h3>
             <p>
-              Empece con progrmacion en 2021, iniciando con HTML, CSS y JavaScript. Creando pequeños proyectos. <br />
-              En el año 2022 consegui mi primer trabajo como Desarrollador Frontend en ITERART y hoy dia me encuentro trabajando con:<br />
+              {t.about.description1} <br />
+              {t.about.description2}<br />
               •React<br />
               •Next<br /> 
               •TypeScript<br/>
@@ -24,8 +24,8 @@ export const About = () => {
               •Nodejs<br />
               •SQL Server<br />
               •MySQL.<br />
-              Sigo aprendiendo y mejorando mis habilidades. <br />
-              Me gusta hacer deporte, programar, la musica y junterme con amigos.
+              {t.about.description3} <br />
+              {t.about.description4}
             </p>
           </div>
         </div>

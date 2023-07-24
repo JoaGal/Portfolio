@@ -4,17 +4,17 @@ import {SiCss3, SiHtml5, SiJavascript, SiMicrosoftsqlserver, SiNextdotjs, SiReac
 import Image from "next/image";
 import Link from "next/link";
 
-export const InitialHome = () => {
+export const InitialHome = ({t}) => {
   return (
     <div className="hero" id="home">
         <div className="hero__container">
           <div className="hero__content">
             <div className="hero__main">
               <div className="hero__text">
-                <h1>Soy Joaquin Galdeano</h1>
+                <h1>{t.initialHome.title} Joaquin Galdeano</h1>
                 <Image src={hand} alt="waving_hand" />
                 <p>
-                 Tengo 22 años y trabajo como Desarrollador Frontend desde Argetina. 📍
+                 {t.initialHome.description} 📍
                 </p>
                 <span>
                   <Link
@@ -30,14 +30,14 @@ export const InitialHome = () => {
                     <BsGithub className="hero__icon-button"/>
                   </Link>
                   <a id="hero__button" href="./Mi-Curriculum.pdf" download="JoaquinGaldeano_CV">
-                    Descargar CV
+                    {t.initialHome.button}
                   </a>
                 </span>
               </div>
               <div className="hero__image"></div>
             </div>
             <div className="skills">
-              <p>Habilidades</p>
+              <p>{t.initialHome.skills}</p>
               <div className="logos">
                 <ul>
                   <li>

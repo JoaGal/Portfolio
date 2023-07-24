@@ -1,0 +1,46 @@
+{
+    "navBar": {
+        "home": "Home",
+        "about": "About",
+        "projects": "Projects",
+        "contact": "Contact"
+    },
+    "initialHome": {
+        "title": "I'm",
+        "description": "I'm 22 years old and I work as a Frontend Developer from Argentina.",
+        "button": "Download CV",
+        "skills": "Skills"
+    },
+    "about": {
+        "title": "ABOUT ME",
+        "subtitle": "My name is Joaquin Galdeano, I'm 22 years old and I'm from Resistencia, Chaco, Argentina.",
+        "description1": "I started programming in 2021, starting with HTML, CSS and JavaScript. Creating small projects.",
+        "description2": "In 2022 I got my first job as a Frontend Developer at ITERART and today I am working with:",
+        "description3": "I keep learning and improving my skills.",
+        "description4": "I like to do sports, program, music and hang out with friends."
+    },
+    "projects": {
+        "title": "PROJECTS",
+        "subtitle": "These are some of my projects",
+        "project1": "MERN Stack (MySQL, Express, React, Nodejs). You can control, edit and calculate the stock of merchandise.",
+        "project2": "Vite app using Redux and Tailwind. You can schedule all the invoices to be organized and not forget them.",
+        "project3": "React app. On this website you can create your 100% professional resume. It will help you get a job.",
+        "project4": "Nextjs with Redux app. Find recipes from anywhere in the world. It will tell you the ingredients and how to prepare it.",
+        "project5": "React native app. You can find different transports to travel. It will tell you the price, duration ...",
+        "project6": "React Native app. Created with expo-cli, it is a replica of ShooterAim, only the programming language changes.",
+        "project7": "React app. Where you can improve your accuracy, reaction and reflexes in shooting games.",
+        "project8": "React app. Here you will find your pokemons, look at their characteristics and abilities."
+    },
+    "contactBanner": {
+        "title": "If you need to contact me",
+        "subtitle": "Do you have something in mind?"
+    },
+    "contactComponent": {
+        "title": "Contacts",
+        "subtitle": "Get in touch",
+        "name": "Name",
+        "email": "Email",
+        "message": "Message",
+        "button": "SEND"
+    }
+}
