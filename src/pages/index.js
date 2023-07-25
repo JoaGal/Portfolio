@@ -5,17 +5,16 @@ import { Projects } from "@/components/Projects";
 import Head from "next/head";
 import { InitialHome } from "../components/InitialHome";
 import {  useState } from "react";
-import { useRouter } from "next/router";
 import en from "../locale/en";
 import es from "../locale/es";
 
 
 export default function Home() {
   const [toggled, setToggled] = useState(false);
-  const router = useRouter();
-  const { locale } = router;
+  const [lang, setLang] = useState("es");
 
-  const t = locale === "en" ? en : es;
+
+  const t = lang === "es" ? es : en;
   
   return (
     <>
@@ -29,7 +28,7 @@ export default function Home() {
         <link rel="icon" href="/Portfolio.ico" />
       </Head>
       <main id={`${toggled && "darkmode"}`}>
-        <NavBar toggled={toggled} setToggled={setToggled} t={t}/>
+        <NavBar toggled={toggled} setToggled={setToggled} setLang={setLang} lang={lang} t={t}/>
         <InitialHome t={t}/>
         <About t={t}/>
         <Projects t={t}/>

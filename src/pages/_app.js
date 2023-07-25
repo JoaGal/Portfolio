@@ -7,6 +7,7 @@ import '@/styles/ProjectsItem.css'
 import '@/styles/ContactBanner.css'
 import '@/styles/ContactComponent.css'
 import '@/styles/ButtonTheme.css'
+import '@/styles/SelectLang.css'
 
 export default function App({ Component, pageProps }) {
   return <Component {...pageProps} />

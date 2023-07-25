@@ -3,8 +3,9 @@ import Link from "next/link";
 import { useState } from "react";
 import { MdMenu } from "react-icons/md";
 import { ButtonTheme } from "./navbarComponents/ButtonTheme";
+import { SelectLang } from "./navbarComponents/SelectLang";
 
-export const NavBar = ({toggled, setToggled, t}) => {
+export const NavBar = ({toggled, setToggled, t, setLang, lang}) => {
   const [showNav, setShowNav] = useState(false);
 
   const changeState = () => {
@@ -53,6 +54,7 @@ export const NavBar = ({toggled, setToggled, t}) => {
           </li>
         ))}
       </ul>
+      <SelectLang setLang={setLang} lang={lang}/>
       <ButtonTheme toggled={toggled} setToggled={setToggled}/>
     </div>
   );

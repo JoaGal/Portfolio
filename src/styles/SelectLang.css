@@ -1,0 +1,106 @@
+.select {
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 20px;
+    left: 30px;
+    align-items: center;
+    display: flex;
+}
+
+.select select {
+    padding: 1rem 0.5rem;
+    width: auto;
+    background-color: #fafafa;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.43) inset;
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.43) inset;
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.43) inset;
+    border: none;
+    border-radius: 0.5rem;
+    outline: none;
+    cursor: pointer;
+    height: auto;
+}
+
+#darkmode .select select {
+    background-color: #2d2e32;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.69) inset;
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.69) inset;
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.69) inset;
+    color: #fafafa;
+}
+
+.select img {
+    width: 30px;
+    height: 30px;
+    margin-right: 0.5rem;
+}
+
+.select option {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+/* .select_box {
+    padding: 0.5em;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.43) inset;
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.43) inset;
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.43) inset;
+    width: auto;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.select_box img{
+    width: 30px;
+    height: 30px;
+    margin-left: 0.5rem;
+}
+
+.select ul {
+    display: none;
+    list-style: none;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.43) inset;
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.43) inset;
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.43) inset;
+    border-radius: 0.5rem;
+    width: 100%;
+    top: 45px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    position: absolute;
+}
+
+.select:hover ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.select ul:hover{
+    display: flex;
+    flex-direction: column;
+}
+
+.select:hover ul li {
+    padding: 5px;
+    color: #222;
+}
+
+.select:hover ul li:hover {
+    background: #dcb00f;
+    border-radius: 0.5rem;
+    transition: 0.5s;
+} */
+
+@media screen and (max-width: 768px) {
+    .select {
+        top: 10px;
+        left: 0px;
+        width: 100%;
+        justify-content: center;
+    }
+}
