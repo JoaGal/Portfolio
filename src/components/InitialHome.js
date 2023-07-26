@@ -29,7 +29,7 @@ export const InitialHome = ({t}) => {
                   >
                     <BsGithub className="hero__icon-button"/>
                   </Link>
-                  <a id="hero__button" href="./Mi-Curriculum.pdf" download="JoaquinGaldeano_CV">
+                  <a id="hero__button" href="./CV.pdf" download="JoaquinGaldeano_CV">
                     {t.initialHome.button}
                   </a>
                 </span>
