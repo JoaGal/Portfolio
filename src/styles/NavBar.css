@@ -67,6 +67,7 @@
     outline: none;
     color: #2d2e32;
     transition: 0s;
+    z-index: 10;
   }
 
   #darkmode .mobile__menu__icon{
