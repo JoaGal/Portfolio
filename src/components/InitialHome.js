@@ -19,7 +19,7 @@ export const InitialHome = ({t}) => {
                 <span>
                   <Link
                     target="_blank"
-                    href="https://www.linkedin.com/in/joaquin-galdeano-174281209/"
+                    href="https://www.linkedin.com/in/joaquingaldeano/"
                   >
                     <BsLinkedin className="hero__icon-button"/>
                   </Link>
