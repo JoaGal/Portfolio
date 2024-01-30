@@ -17,6 +17,7 @@ export const About = ({t}) => {
             <p>
               {t.about.description1} <br />
               {t.about.description2}<br />
+              •JavaScript<br />
               •React<br />
               •Next<br /> 
               •TypeScript<br/>
@@ -24,6 +25,7 @@ export const About = ({t}) => {
               •Nodejs<br />
               •SQL Server<br />
               •MySQL.<br />
+              •CSS<br />
               {t.about.description3} <br />
               {t.about.description4}
             </p>
