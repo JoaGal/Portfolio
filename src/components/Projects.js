@@ -46,7 +46,7 @@ export const Projects = ({t}) => {
             <ProjectsItems
               img={invoice}
               title="Invoices"
-              links="https://invoices-joagal.vercel.app/"
+              links="https://invoicesfrontend-joagal.vercel.app/"
               desc={t.projects.project2}
             />
             <ProjectsItems
